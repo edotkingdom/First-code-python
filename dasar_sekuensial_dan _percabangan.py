@@ -15,10 +15,12 @@ print("dan mulai belanja")
 
 # Percabangan
 jumlah_botol_susu = 177
-
+jumlah_telur = 1876
 if jumlah_botol_susu > 0:
     print("Budi mengecek harga susu, ternyata cukup")
     print("Budi membeli 1 botol susu")
+    if jumlah_telur > 0:
+        print("budi Membeli telor 6")
 else:
     print("Budi tidak jadi beli susu")
 
